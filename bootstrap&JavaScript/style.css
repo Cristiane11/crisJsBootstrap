@@ -1,0 +1,76 @@
+  /**Color bg #5b8ba1;
+ verder #506626
+ Amarelo#d4aa04
+ Preto #000
+Branco #FFF
+Cinza #717171
+**/
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Delius+Swash+Caps&display=swap');
+*{
+    box-sizing: border-box;
+}
+header{
+   position: relative;
+}
+  .logo{
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color:#506626;
+  }
+  body{
+  font-family: "Ancizar Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+  }
+  body a{
+    text-decoration: none;
+    color:#d4aa04;
+  }
+ h2,h3{
+  
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  color:#506626;
+  font-size: 28px;
+  }
+  #history{
+    width: 100%;
+    background-color: #506626;
+    display: flex;
+    text-align: left;
+    align-items: start;
+    font-size: 24px;
+    color:#fff;
+  }
+  .footer{
+  background-image: url("./img/footer-bg.jpg");
+  color: #506626;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  }
+  #projects-container{
+    height: 65vh;
+    text-align: center;
+    align-items: center; 
+  }
+
+@media screen and (min-width: 1200px) {
+    #history {
+        width: 100%;
+        background-image: url(./img/CristianeAbreu__Web_Developer-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 35% auto;
+        min-height: 60vh;
+    }
+    #history .text-content {
+        width: 70%;
+    }
+}
+
