@@ -4,7 +4,7 @@ let skills = ["JavaScript |"," HTML5 |","CSS3 |","ES6 |","React |","Bootstrap|",
 let skillsUpdate = document.getElementById("skills");
 
 const continueUpSkills = skills.map((skill)=>{
-    return skill
+        return  skill
 });
 skillsUpdate.innerHTML = continueUpSkills.slice(0,8);
 
@@ -42,9 +42,10 @@ const projects=[
 
     }
 ];
+let ProjectsFront = document.getElementById("projectsSample");
+const proj = projects.map((project)=>{
+   return project
 
-const project = projects.map(({id,img,title,projectSkills,description})=>{
-    return item;
-});
-const  projectCard = document.getElementById("projectsSample");
-projectCard.innerHTML = project;
+})
+ProjectsFront.innerHTML =proj.slice(0,4);
+
