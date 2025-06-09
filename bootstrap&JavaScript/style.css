@@ -46,6 +46,10 @@ header{
     font-size: 24px;
     color:#fff;
   }
+  .headline{
+    display: flex;
+    text-align: start;
+  }
   .footer{
   background-image: url("./img/footer-bg.jpg");
   color: #506626;
@@ -58,6 +62,9 @@ header{
     height: 65vh;
     text-align: center;
     align-items: center; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
 @media screen and (min-width: 1200px) {
@@ -66,8 +73,8 @@ header{
         background-image: url(./img/CristianeAbreu__Web_Developer-removebg-preview.png);
         background-repeat: no-repeat;
         background-position: bottom right;
-        background-size: 35% auto;
-        min-height: 60vh;
+        background-size: 45% auto;
+        
     }
     #history .text-content {
         width: 70%;
