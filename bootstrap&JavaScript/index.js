@@ -11,7 +11,7 @@ skillsUpdate.innerHTML = continueUpSkills.slice(0,8).join(' ');
 const projects=[
     {
     id:1,
-    img:"./file.png",
+    img:"../img/projects/deonaf.png",
     title:"Worpdress Website",
     projectSkills:"js, html, css,react",
     description:"wirtshoooiosssoosososodosof"
@@ -19,7 +19,7 @@ const projects=[
     },
     {
     id:2,
-    img:"./file.png",
+    img:"./img/projects/hair.png",
     title:"Worpdress Website",
     projectSkills:"js, html, css,react",
     description:"wirtshoooiosssoosososodosof"
@@ -27,7 +27,7 @@ const projects=[
     },
     {
     id:3,
-    img:"./file.png",
+    img:"./img/projects/procure.png",
     title:"Worpdress Website",
     projectSkills:"js, html, css,react",
     description:"wirtshoooiosssoosososodosof"
@@ -35,16 +35,13 @@ const projects=[
     },
     {
     id:4,
-    img:"./file.png",
+    img:"./img/projects/New Logo 2B.png",
     title:"Worpdress Website",
     projectSkills:"js, html, css,react",
     description:"wirtshoooiosssoosososodosof"
     }
 ];
 let ProjectsFront = document.getElementById("projectsSample");
-
-
-
 
 
 const cards = projects.map(project => {
