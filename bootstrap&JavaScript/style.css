@@ -26,6 +26,8 @@ header{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal; 
+  justify-content: center;
+  align-items: center;
   }
   body a{
     text-decoration: none;
@@ -61,47 +63,55 @@ header{
     flex-direction: column;
     
   }
-  .project-container{
+  .project-body{
     font-family: Arial, Helvetica, sans-serif;
     justify-content:center;
-    background-color: aquamarine;
-    gap:15px;
-    height: 100vh;
-  }
-  .cards-container{
-    background-color: #FFF;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    display: flex;
-    height: 40vh;
-  }
- 
-  .card-content{
-    width:320px;
-    background-color: #d4aa04;
-    border-radius: 9px;
-    flex-direction: column;
-    opacity: 1;
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    z-index: 1;
-  }
-  .cards:hover{
-    display: block;
-    -webkit-animation: a 1s;
-    animation: a 1s;
-  }
-  .project-img{
-    border-radius: 25px 25px 0px 0px;
-    width: 100%;
-    height: 50vh;
-  }
-  .cardBody{
-    padding: 16px;
-    display: flex;
     align-items: center;
-    justify-content: center;
-   
+    display: flex;
+    min-height: 100vh;
   }
+  .cards-body{
+  background-color: #fff;
+  width: 320px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  height: 80vh;
+  }
+
+ .project-img{
+  width: 100%;
+  height:35%;
+ }
+ .card-content{
+  padding:16px;
+ }
+ .card-title{
+  font-size: 20px;
+  margin-bottom: 8px;
+ }
+.card-description{
+font-size: 14px;
+color: #506626;
+margin-bottom: 16px;
+ }
+ .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-button {
+  padding: 8px 12px;
+  background-color: #506626;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-color: #d4aa04;
+}
   .footer{
   background-image: url("./img/footer-bg.jpg");
   color: #506626;
