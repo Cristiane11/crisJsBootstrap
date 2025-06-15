@@ -8,21 +8,16 @@ Embed code in the <head> of your html
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Delius+Swash+Caps&display=swap" rel="stylesheet">
-Delius Swash Caps: CSS class
-
-.delius-swash-caps-regular {
-font-family: "Delius Swash Caps", cursive;
-font-weight: 400;
-font-style: normal;
-}
-Ancizar Serif: CSS class for a variable style
-
-// <weight>: Use a value from 300 to 900
-// <uniquifier>: Use a unique and descriptive class name
-
-.ancizar-serif-<uniquifier> {
-font-family: "Ancizar Serif", serif;
-font-optical-sizing: auto;
-font-weight: <weight>;
-font-style: normal;
-}
+## The form is located in the contact Page
+        ## There are name, email and inputs 
+## Table is located on the education Page
+##3 Bootstrap Components
+    1- Index Page 
+        * carousel slide
+        * Cards on Projects Section
+    3- Experience Pages
+        * Accordians
+Functions
+## There are two fumctions on the index.js that will be showing on the Home Page
+## The is one on the Contact Page that will send and email Notification 
+## The is a function that will show random Project to the project Page

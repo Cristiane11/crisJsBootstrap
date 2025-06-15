@@ -1,4 +1,6 @@
 
+/*This function will update the last new 4 skills  and it will be showing in the front page*/
+
 let skills = ["JavaScript |"," HTML5 |","CSS3 |","ES6 |","React |","Bootstrap|","Node.js|","SQL|","Git |","Agile Project Management |", "WordPress " 
 ];
 let skillsUpdate = document.getElementById("skills");
@@ -7,7 +9,7 @@ const continueUpSkills = skills.map((skill)=>{
         return  skill
 });
 skillsUpdate.innerHTML = continueUpSkills.slice(0,8).join(' ');
-
+/* This Fucntion will be showing my last project to the front page project section*/
 const projects=[
     {
     id:1,
@@ -77,4 +79,9 @@ const cards = projects.map(project => {
 });
 ProjectsFront.innerHTML = cards.slice(0,4).join(' ');
 
-
+/*This Function will show random Project to Project Page*/
+function getRandomProject() {
+  const index = Math.floor(Math.random() * projects.length);
+  return projects[index];
+}
+console.log(`Featured project: ${getRandomProject()}`);
