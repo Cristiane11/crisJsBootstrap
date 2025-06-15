@@ -120,7 +120,9 @@ margin-bottom: 16px;
   justify-content: center;
   padding-left: 50px;
   }
-
+.footerContact{
+  height: 80vh;
+}
 @media screen and (min-width: 1200px) {
     #history {
         width: 100%;
@@ -135,26 +137,3 @@ margin-bottom: 16px;
     }
 }
 
-@-webkit-keyframes a {
-    0% {
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-        visibility: visible;
-    }
-    to {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-    }
-}
-
-@keyframes a {
-    0% {
-        -webkit-transform: translate3d(0, 100%, 0);
-        transform: translate3d(0, 100%, 0);
-        visibility: visible;
-    }
-    to {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-    }
-}
